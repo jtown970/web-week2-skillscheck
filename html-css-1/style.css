@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background: gray;
+}
+
+.company-name{
+  margin-left: 5%;
+  color: white;
+  font-size: 2rem;
+}
+
+.nav-list {
+ margin-left: 65%;
+ display: flex;
+}
+
+.nav-items {
+  font-size: 1.3rem;
+  color: white;
+  margin: 0 10px;
+}
+
+.top-bg {
+  font-size: 4.5rem;
+  color: khaki;
+  background: black;
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes, .recs, .bottom-content {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5% 0;
+
+}
+
+.box1, .box2, .box3 {
+  width: 15%;
+  height: 80%;
+  background: lightblue;
+  border-radius: 10px;
+
+}
+
+.rec1, .rec2 {
+  height: 60%;
+  width: 30%;
+  background: yellow;
+  margin-left: 150px;
+}
+
+
+.bottom-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 30px;
+  padding: 15%;
+}
+
+
+
+
+.elephant {
+  height: 300px;
+  width: 500px;
+  padding-left: 10px;
+}
+
+.text {
+  width: 40%;
+  margin-right: 10%;
+  text-align: left;
+}
+
+
+.da-foot {
+  height: 10vh;
+  width: 100vw;
+  background: rgb(21, 21, 82);
+
+}
