@@ -76,8 +76,8 @@ function setPowers (arr) {
 
 // CODE HERE
 function redactInfo (obj) {
-  for(let i = 0; i < obj.length; i++){
-    return obj[i] = 'redacted'
+  for(key in obj){
+     obj[key] = 'redacted'
   }
   redacted()
 }
