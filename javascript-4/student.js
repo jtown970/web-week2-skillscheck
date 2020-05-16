@@ -53,10 +53,10 @@ function setColor (arr) {
   arr.splice(3)
   for(let i = 0; i < arr.length; i++){
     if(arr[i] === 'blue'){
-      return '#4D4DFF'
+      return arr[i] ==='#4D4DFF'
     }
   }
-  background(setColor)
+  background(arr)
 }
 
 //////////////////Step 5////////////////////

@@ -196,4 +196,7 @@ let enemies = people.filter(element => element.friend === false)
 
 // Code Here
 
-let totallyAwesome = people.reduce((acc, curr) => {acc + curr} )
+let totallyAwesome = people.reduce((acc, curr) => {
+	return acc + curr.awesomeLevel
+	},0)
+
