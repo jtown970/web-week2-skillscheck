@@ -5,7 +5,7 @@
 // Create a new array called 'faveColors' and assign it a value of your three favorite colors as strings.
 
 // CODE HERE
-let faveColors = ['blue', 'green', 'red']
+let faveColors = ['yellow', 'green', 'red']
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
 
@@ -56,7 +56,7 @@ function setColor (arr) {
       return arr[i] ==='#4D4DFF'
     }
   }
-  background(arr)
+  background('black', 'green', 'pink')
 }
 
 //////////////////Step 5////////////////////
